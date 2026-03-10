@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+outputs_qwen35/
+outputs_qwen35_full*
+unsloth_compiled_cache/
+.hftoken
+gpu_log.csv
+secret.md

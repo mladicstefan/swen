@@ -1,0 +1,36 @@
+[project]
+name = "llm-finetune"
+version = "0.1.0"
+description = "fine tuning some LLM"
+readme = "README.md"
+requires-python='==3.10.19'
+dependencies = [
+    "accelerate",
+    "auto-gptq",
+    "autoawq",
+    "bitsandbytes",
+    "dataset>=1.6.2",
+    "datasets",
+    "evaluate",
+    "ipywidgets",
+    "jupyter",
+    "jupyterlab",
+    "mlflow",
+    "notebook",
+    "numpy",
+    "pandas",
+    "peft",
+    "protobuf",
+    "scikit-learn",
+    "scipy",
+    "sentencepiece",
+    "tokenizers",
+    "torch",
+    "torchaudio",
+    "torchvision",
+    "transformers>=4.57.7",
+    "trl",
+    "unsloth>=2026.3.4",
+    "vllm>=0.4.0",
+    "wandb",
+]
