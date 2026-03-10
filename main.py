@@ -91,7 +91,6 @@ def main():
             load_best_model_at_end=False,
             output_dir="outputs_qwen35_full",
             optim="adamw_8bit",
-            predict_with_generate=False,
             dataloader_pin_memory=False,
             seed=3407,
             dataset_num_proc=8,
